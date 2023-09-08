@@ -1,0 +1,28 @@
+---
+title: "Summary"
+Author: Naboni Thomas Kidane
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+---
+# wEEK 2
+
+# SE1
+
+# SUMMARY
+
+The book discusses the differences between software engineering, programming, and computer science. Software engineering is more serious and involves applying theoretical knowledge to create something tangible. Software engineering practices are not as rigorous as other engineering fields, but the need for more rigorous methods is increasing. Software engineering includes writing code and using tools and processes to maintain it over time. The book emphasizes three principles for software organizations: Time and Change, Scale and Growth, and Trade-offs and Costs.
+
+# Reflection
+
+After reading the bok "software enginerring", the distinguishing of programming to software enginering that i didnt know that they both correilated but they do different thing but for the same product. The field of software enginnering involves rigorous methods by running test cases for a program by writing codes. Which i believe most enginering fields dont do.
+
+# Use-case 
+
+
+
+
+# FB1
