@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Summary",
+    "section": "",
+    "text": "By: Naboni Thomas"
+  },
+  {
+    "objectID": "index.html#se1",
+    "href": "index.html#se1",
+    "title": "Summary",
+    "section": "SE1",
+    "text": "SE1\nSummary\nThe book discusses the differences between software engineering, programming, and computer science. Software engineering is more serious and involves applying theoretical knowledge to create something tangible. Software engineering practices are not as rigorous as other engineering fields, but the need for more rigorous methods is increasing. Software engineering includes writing code and using tools and processes to maintain it over time. The book emphasizes three principles for software organizations: Time and Change, Scale and Growth, and Trade-offs and Costs.\nReflection\nAfter reading the book ‘Software Engineering’, I learned about the distinction between programming and software engineering. I didn’t know that they were related but they do different things for the same product. The field of software engineering involves rigorous methods such as running test cases for a program by writing code, which I believe most engineering fields don’t do.\nUse-case By using the skills from software engineering and considering the trade-offs and benefits, I would benefit in shaping up my skills and gain more understanding of it."
+  },
+  {
+    "objectID": "index.html#fb1",
+    "href": "index.html#fb1",
+    "title": "Summary",
+    "section": "FB1",
+    "text": "FB1\nSummary\nThe book explains that software testing is a critical process in ensuring that software is reliable and free from errors. It helps to detect and fix bugs, improve the overall quality of the software, and make sure that it meets the user’s specified criteria and requirements. By testing, potential issues and vulnerabilities can be identified and addressed before they cause problems for end users.\nReflection\nAfter reading this chapter, I learned that software testing is a critical process for ensuring the quality and reliability of software. It helps to identify and fix bugs, improve the overall user experience, and detect and fix issues before they impact end users.\nUse-case\nThe information I learned from the chapter helps in many ways, such as running test suite cases. When using the Chasten package, we can go through the process of testing and making sure the software runs as expected."
+  },
+  {
+    "objectID": "index.html#se2",
+    "href": "index.html#se2",
+    "title": "Summary",
+    "section": "SE2",
+    "text": "SE2\nSummary\nThe book discusses the complectity and long-term nature of software engineering compared to programing. It discusses the challenges of managing changes, upgrades and dependencies in software projects, and the trase-offs associated with software sustainibility as it was mentioned in the SE1 reading assigned such as time, costs, growth of the software and among the other. The book also emphasizes the importance of team efforts in software enginerring tasks is much appriciated to individual efforts in programing tasks.\nReflecttion\nThis chapter underscores the significance of foresight, planning, and collaboration in the realm of software engineering. As a member of the development developers team, I find it beneficial to reflect on these aspects, particularly when faced with complex decisions. It’s crucial to approach problem-solving as a collective effort rather than as isolated individuals. This collaborative approach not only leverages the diverse skills and perspectives within the team but also fosters a sense of unity and shared responsibility.\nUse-case\nOne use case could be, in our software enginerring class, every individual is assigned with a different task but we all work for one outcome. We are required to work together inorder to solve difficult tasks together and come up with a solution as a team. Like forexample, today in class different tasks were assigned to several students. This tasks were created to tackle as an individual or team of two or three depending on the task given but we work as a team by asking questions and coming up with good solutions for different executable tasks."
+  },
+  {
+    "objectID": "index.html#fb2",
+    "href": "index.html#fb2",
+    "title": "Summary",
+    "section": "FB2",
+    "text": "FB2\nSummary\nThis FB2 chapter serves as a thorough guide to understanding the significance of code coverage in software testing. It elucidates how code coverage metrics can be employed to gauge the efficacy of tests and introduces a Coverage class for assessing coverage in Python applications. The guide further explores various coverage types, including statement, branch, and path coverage, and their application in enhancing testing procedures. It also discusses the strategic use of code coverage in directing fuzzing towards untested areas in a program.\nReflection\nI find the concept of code coverage be valuable tool in software testing. It provides a quantitative measure that can help developers like me understand the effectiveness of my test cases.\nUse-case\nWhen we are working on a large Python application as a team, we have conducted numerous tests to ensure the functionality of the code. However, we may not be certain if these tests are comprehensive enough. This is where the concept of code coverage becomes valuable. By utilizing the Coverage class, we can quantify how much of the code is actually being tested. This includes verifying which statements, branches, and paths in the code are covered by our designed tests. If we discover that certain parts of the code are not covered, we can develop additional tests to cover those areas, thereby enhancing the overall quality of our software."
+  },
+  {
+    "objectID": "index.html#se3",
+    "href": "index.html#se3",
+    "title": "Summary",
+    "section": "SE3",
+    "text": "SE3\nSummary\nThe chapter from “Software Engineering at Google” on “How to Work Well on Teams” emphasizes the importance of adapting to the system, working well within teams, and sharing ideas and work. The chapter is divided into sections discussing the significance of conforming to the system for success, the necessity of teamwork and collaboration in software engineering, and the detrimental effects of withholding one’s work and ideas. It provides practical tips for improving communication, collaboration, and teamwork within software engineering teams. This chapter underscores that software engineering is not a solitary endeavor, but a team effort that requires open sharing of ideas and constructive criticism.\nReflection\nThis chapter underscored the significance of adaptability, collaboration, and openness in a software engineering environment. It conveyed that success isn’t solely about individual brilliance, but also hinges on one’s ability to effectively operate within a system and collaborate with a team. This resonates with our class experience, as we collectively work towards building a cohesive team, aiding each other in resolving issues and providing support when someone encounters difficulties. The chapter further emphasizes the necessity for effective communication and the courage to openly share ideas. It promotes the understanding that constructive criticism is a conduit for improvement rather than a personal affront\nUse-case\nIn terms of a use-case, this guide mentioned in the chapter can serve as a valuable resource for our software engineering class, particularly when working on complex projects. It can help us foster a dynamic team. For instance, if there’s a system or process that you find challenging, instead of resisting it, you could strive to understand and adapt to it by working together as a team and coming up with solutions."
+  },
+  {
+    "objectID": "index.html#fb3",
+    "href": "index.html#fb3",
+    "title": "Summary",
+    "section": "FB3",
+    "text": "FB3\nSummary\nThe chapter on Fuzzing: Breaking Things with Random Inputs provides an overview of fuzzing, as a process that involves feeding a program with random input to uncover failures. It emphasizes the importance of running fuzzers in a safe environment and acknowledges the potential risks involved. The chapter suggests using a program-runner to feed the generated input into an external program and provides an example using the “bc” calculator program. IN addition, it discusses prerequisites such as a basic understanding of Python and software testing fundamentals, and explains how to create and verify input files. It concludes by highlighting the benefits and risks of fuzzing, and offers practical steps for implementation using Python.\nReflection\nReflecting on this chapter, it’s clear that fuzzing is a powerful tool in software testing, allowing us to uncover potential failures by feeding a program with random input. However, it also highlights the importance of caution, as fuzzing can potentially harm the system if not done in a safe environment.\nUse-case\nWhen workin on our big project chasten, we could use fuzzing to test the robustness of the application against unexpected or random inputs. By generating a string of random characters using a fuzzer function and feeding it into our application, we could uncover potential failures or crashes. THi could be dont by giving it test cases and going through them. This would be particularly useful in testing the limits of our application. However, we would want to ensure this is done in a controlled environment to prevent any unintended damage to your system."
+  },
+  {
+    "objectID": "index.html#se4",
+    "href": "index.html#se4",
+    "title": "Summary",
+    "section": "SE4",
+    "text": "SE4\nSummary\nThe chapter on knowledge sharing explains the significance of fostering a learning culture within an organization, where individuals are encouraged to acknowledge their knowledge gaps, ask questions, and seek for help if needed. It advocates for knowledge-sharing as a scalable solution that benefits the entire organization, and can be achieved through various methods like group chats, mailing lists, and Q&A systems. The chapter also highlights the role of mentorship in promoting learning, urging individuals to share their expertise and experiences. It emphasizes that learning is a continuous process, and no one person holds all the answers.\nReflection\nThe chapter resonates with the idea that no one has all the answers. It’s a reminder that it’s okay to not know everything and to ask for help when needed. It also emphasizes the importance of sharing knowledge and experiences, which can be rewarding not just for the individual, but for the entire team. This promotes a culture of continuous learning and growth, which is something I believe is essential in both professional and personal development.\nUse-case\nIn our software development company, a culture of learning and knowledge sharing is crucial. For instance, when a developer encounters a complex bug, they could leverage the teams knowledge-sharing platforms such as discord or github issue trackers to seek help or find if someone else has already solved a similar issue. This not only promotes individual learning but also prevents duplication of effort. Additionally, more experienced team members could take on mentorship roles, guiding newer members and sharing their expertise, further fostering a collaborative and continuous learning environment."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

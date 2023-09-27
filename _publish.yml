@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 2ade0bd1-7662-41e2-be9c-ef7b8526ca5d
+      url: 'https://blogpos-naboni.netlify.app'
