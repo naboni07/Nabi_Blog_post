@@ -134,7 +134,7 @@ Reading this chapter has made me realize the importance of thorough testing in s
 Consider a software development project for a banking application. The application has a feature to transfer funds between accounts. A test suite is developed with high structural coverage, ensuring all execution paths are tested. However, the test suite may still miss bugs if it doesn’t have strong assertions. By applying mutation analysis, we could introduce artificial faults, such as reversing the direction of fund transfer or changing the conditions for transfer limits. If the test suite fails to detect these mutations, it indicates that the assertions need to be strengthened. This way, mutation analysis can help improve the effectiveness of the test suite in catching bugs, leading to a more robust banking application.
 
 
-# Week 6
+# Week 7
 
 ## SE5
 
@@ -149,3 +149,17 @@ I find this chapter to be incredibly insightful. It not only highlights the syst
 **Use-case**
 
 In our software development class, the chapter on `Engineering for Equity` might not seem directly applicable at first glance. However, it provides valuable insights that will be crucial when we transition into professional roles in tech companies like Google. The chapter encourages us to proactively address issues of inequality and incorporate solutions into company policies. When instances of inequality arise, it’s important to communicate them to our supervisors. Organizing workshops or training sessions could be an effective way to address these issues and promote a more equitable work environment.
+
+## FB5
+
+**Summary**
+
+The chapter introduces `Mutation-based fuzzing`, a software testing method that generates random inputs and alters them to find program vulnerabilities. It explains how this method can guide test generation using coverage information. The text also introduces the American Fuzzy Lop (AFL), a popular tool that evolves test cases by finding new execution paths. Furthermore, it discusses the basics of mutational fuzz testing and how it can be directed towards specific code goals.
+
+**Reflection**
+
+The chapter on `Mutation-based fuzzing` provides a comprehensive overview of mutation-based fuzzing, highlighting its importance in identifying vulnerabilities in software programs. It emphasizes the role of tools like AFL in evolving test cases and finding new execution paths, showcasing the dynamic nature of this testing method. The ability to direct testing towards specific code goals further underscores the versatility and strategic application of mutational fuzz testing.
+
+**Use-case**
+
+In our software development company, when working on including new tools in our `chasten` program, we use mutation-based fuzzing for the testing process to ensure that the implemented tools are robust before launch. This method generates random inputs and uses AFL to mutate these inputs, uncovering potential vulnerabilities that were not identified during regular testing. By directing the fuzz testing towards specific code goals, we can focus on areas of the code that are particularly critical or complex. This helps us enhance the reliability of the tools before they are released to users.
