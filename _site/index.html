@@ -125,9 +125,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#se4" id="toc-se4" class="nav-link" data-scroll-target="#se4">SE4</a></li>
   <li><a href="#fb4" id="toc-fb4" class="nav-link" data-scroll-target="#fb4">FB4</a></li>
   </ul></li>
-  <li><a href="#week-6" id="toc-week-6" class="nav-link" data-scroll-target="#week-6">Week 6</a>
+  <li><a href="#week-7" id="toc-week-7" class="nav-link" data-scroll-target="#week-7">Week 7</a>
   <ul class="collapse">
   <li><a href="#se5" id="toc-se5" class="nav-link" data-scroll-target="#se5">SE5</a></li>
+  <li><a href="#fb5" id="toc-fb5" class="nav-link" data-scroll-target="#fb5">FB5</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -236,8 +237,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Consider a software development project for a banking application. The application has a feature to transfer funds between accounts. A test suite is developed with high structural coverage, ensuring all execution paths are tested. However, the test suite may still miss bugs if it doesn’t have strong assertions. By applying mutation analysis, we could introduce artificial faults, such as reversing the direction of fund transfer or changing the conditions for transfer limits. If the test suite fails to detect these mutations, it indicates that the assertions need to be strengthened. This way, mutation analysis can help improve the effectiveness of the test suite in catching bugs, leading to a more robust banking application.</p>
 </section>
 </section>
-<section id="week-6" class="level1">
-<h1>Week 6</h1>
+<section id="week-7" class="level1">
+<h1>Week 7</h1>
 <section id="se5" class="level2">
 <h2 class="anchored" data-anchor-id="se5">SE5</h2>
 <p><strong>Summary</strong></p>
@@ -246,6 +247,15 @@ ul.task-list li input[type="checkbox"] {
 <p>I find this chapter to be incredibly insightful. It not only highlights the systemic issues prevalent in the tech industry but also provides actionable steps to address them. The emphasis on psychological safety and multicultural competence resonates with me as these are crucial for fostering an inclusive work environment. The call for continuous professional development is a reminder that learning is a lifelong process and is essential for personal growth and career advancement.</p>
 <p><strong>Use-case</strong></p>
 <p>In our software development class, the chapter on <code>Engineering for Equity</code> might not seem directly applicable at first glance. However, it provides valuable insights that will be crucial when we transition into professional roles in tech companies like Google. The chapter encourages us to proactively address issues of inequality and incorporate solutions into company policies. When instances of inequality arise, it’s important to communicate them to our supervisors. Organizing workshops or training sessions could be an effective way to address these issues and promote a more equitable work environment.</p>
+</section>
+<section id="fb5" class="level2">
+<h2 class="anchored" data-anchor-id="fb5">FB5</h2>
+<p><strong>Summary</strong></p>
+<p>The chapter introduces <code>Mutation-based fuzzing</code>, a software testing method that generates random inputs and alters them to find program vulnerabilities. It explains how this method can guide test generation using coverage information. The text also introduces the American Fuzzy Lop (AFL), a popular tool that evolves test cases by finding new execution paths. Furthermore, it discusses the basics of mutational fuzz testing and how it can be directed towards specific code goals.</p>
+<p><strong>Reflection</strong></p>
+<p>The chapter on <code>Mutation-based fuzzing</code> provides a comprehensive overview of mutation-based fuzzing, highlighting its importance in identifying vulnerabilities in software programs. It emphasizes the role of tools like AFL in evolving test cases and finding new execution paths, showcasing the dynamic nature of this testing method. The ability to direct testing towards specific code goals further underscores the versatility and strategic application of mutational fuzz testing.</p>
+<p><strong>Use-case</strong></p>
+<p>In our software development company, when working on including new tools in our <code>chasten</code> program, we use mutation-based fuzzing for the testing process to ensure that the implemented tools are robust before launch. This method generates random inputs and uses AFL to mutate these inputs, uncovering potential vulnerabilities that were not identified during regular testing. By directing the fuzz testing towards specific code goals, we can focus on areas of the code that are particularly critical or complex. This helps us enhance the reliability of the tools before they are released to users.</p>
 
 
 </section>
