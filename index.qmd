@@ -179,3 +179,73 @@ Reflecting on this, it’s clear that effective leadership requires a balance of
 **Use-case**
 
 For a use-case, in our software engineering team when working on the `chaten` tool, as a collaborative effort, any one of us could take the initiative to be productive and assume the role of a leader to guide our small group teams. The team leader can apply the principles from this chapter to ensure effective leadership. As leaders, we can strive to understand our team’s needs, provide clear expectations for the project, and offer constructive feedback throughout the development process. By fostering an environment of respect and trust, we can cultivate a strong collective team identity that can contribute to the successful completion of the `chaten` project.
+
+## FB6
+
+**Summary**
+**Reflection**
+**Use-case**
+
+# Week 9
+
+## Se7
+
+**Summary**
+
+The chapter on `Leading at Scale` is a comprehensive guide for engineering leaders aiming to lead multiple teams. It emphasizes transitioning from individual contributors to team leaders, prioritizing tasks, listening to diverse opinions, and building a strong team culture. The chapter suggests that focusing on the top 20% of critical tasks and encourages leaders to create an environment where team members feel valued, supported, and empowered.
+
+**Reflection**
+
+This guide resonates with me as it underscores the importance of effective leadership in achieving team success. It reminds me that leadership is not just about directing but also about listening, prioritizing, and creating a conducive environment for the team. The emphasis on focusing on the top 20% of tasks is particularly enlightening as it’s easy to get caught up in less important tasks.
+
+**Use-case**
+
+This chapter can be incredibly beneficial for new engineering managers transitioning from individual contributors to team leaders. They can utilize these strategies to manage their teams effectively, prioritize tasks, and foster a robust team culture. For instance, a project manager in a software development company, or even in our software engineering class, can use this guide to enhance their leadership skills. This, in turn, can boost the productivity of our chosen tools and uplift the morale of our team.
+
+## FB7
+
+**Summary**
+**Reflection**
+**Use-case**
+
+# Week 10
+
+## Se8
+
+**Summary**
+**Reflection**
+**Use-case**
+
+## FB8
+
+**Summary**
+**Reflection**
+**Use-case**
+
+# Week 11
+
+## Se9
+
+**Summary**
+**Reflection**
+**Use-case**
+
+## FB9
+
+**Summary**
+**Reflection**
+**Use-case**
+
+# Week 12
+
+## Se10
+
+**Summary**
+**Reflection**
+**Use-case**
+
+## FB10
+
+**Summary**
+**Reflection**
+**Use-case**
