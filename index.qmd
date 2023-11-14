@@ -268,9 +268,15 @@ This script above employs a simple grammar to generate random strings composed o
 
 **Summary**
 
+The chapter on `Code review` mentions as a process where a code is examined by someone other than the author before it’s added to the codebase. It checks for code correctness, comprehensibility, and consistency. At Google, code reviews are extensive and involve multiple reviewers. The goal is to get approval from another engineer, indicated by “looks good to me” (LGTM). Code reviews help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and improve code quality. Despite variations in the software industry, code review is seen as a crucial step for code quality and efficient collaboration.
+
 **Reflection**
 
+The chapter highlights the importance of code reviews in maintaining high-quality code and fostering collaboration among engineers. It underscores that code reviews are not just about finding bugs, but also about ensuring that the code is understandable, consistent, and maintainable. The practice of code review, as described at Google, emphasizes the importance of collective ownership and knowledge sharing in software development. It’s interesting to note that code reviews are seen as a crucial, albeit imperfect, process that contributes to the scalability and success of a software organization over time.
+
 **Use-case**
+
+Consider our software engineering class that is struggling with code quality and collaboration issues among its students. Implementing a rigorous code review process, similar to the one described at Google, could be beneficial. This process would involve multiple reviewers who check the code for correctness, comprehensibility, and consistency. The primary goal would be to gain approval from another student, fostering a sense of team ownership. This practice could help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and ultimately improve the overall quality of the code. This would help us avoid introducing bugs that could break the system. Over time, this could contribute to the scalability and success of our projects.
 
 ## FB9
 
