@@ -88,7 +88,7 @@
     "href": "index.html#fb6",
     "title": "Summary",
     "section": "FB6",
-    "text": "FB6\nSummary Reflection Use-case"
+    "text": "FB6\nSummary\nReflection\nUse-case"
   },
   {
     "objectID": "index.html#se7",
@@ -123,28 +123,63 @@
     "href": "index.html#se9",
     "title": "Summary",
     "section": "Se9",
-    "text": "Se9\nSummary\nReflection\nUse-case"
+    "text": "Se9\nSummary\nThe chapter on Code review mentions as a process where a code is examined by someone other than the author before it’s added to the codebase. It checks for code correctness, comprehensibility, and consistency. At Google, code reviews are extensive and involve multiple reviewers. The goal is to get approval from another engineer, indicated by “looks good to me” (LGTM). Code reviews help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and improve code quality. Despite variations in the software industry, code review is seen as a crucial step for code quality and efficient collaboration.\nReflection\nThe chapter highlights the importance of code reviews in maintaining high-quality code and fostering collaboration among engineers. It underscores that code reviews are not just about finding bugs, but also about ensuring that the code is understandable, consistent, and maintainable. The practice of code review, as described at Google, emphasizes the importance of collective ownership and knowledge sharing in software development. It’s interesting to note that code reviews are seen as a crucial, albeit imperfect, process that contributes to the scalability and success of a software organization over time.\nUse-case\nConsider our software engineering class that is struggling with code quality and collaboration issues among its students. Implementing a rigorous code review process, similar to the one described at Google, could be beneficial. This process would involve multiple reviewers who check the code for correctness, comprehensibility, and consistency. The primary goal would be to gain approval from another student, fostering a sense of team ownership. This practice could help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and ultimately improve the overall quality of the code. This would help us avoid introducing bugs that could break the system. Over time, this could contribute to the scalability and success of our projects."
   },
   {
     "objectID": "index.html#fb9",
     "href": "index.html#fb9",
     "title": "Summary",
     "section": "FB9",
-    "text": "FB9\nSummary\nReflection\nUse-case"
+    "text": "FB9\nSummary\nDelta debugging is a systematic technique used to identify the smallest possible input that still triggers a failure or error. It works by progressively removing parts of the input and testing if the error persists. The aim is to minimize the input while still reproducing the failure, simplifying the analysis and resolution of the underlying issue. The process begins by dividing the input into chunks and testing them individually. If a chunk doesn’t cause a failure, it’s discarded, and the process continues with the remaining chunks. This iterative approach gradually reduces the input size while checking the impact on the error. A caching mechanism can be used to store the results of previously tested inputs, avoiding redundant tests and saving time and computational resources. This technique is particularly useful in debugging and fixing software issues. By isolating and minimizing the problematic input, developers can focus on analyzing and resolving the specific cause of the failure, making the debugging process more manageable and targeted.\nReflection\nReflecting on this, delta debugging is a powerful tool for software developers. It automates the process of isolating the cause of a software failure, saving time and effort. It also makes the debugging process more efficient by focusing on the minimal inputs that trigger failures.\nUse-case\nConsider a software development company working on a complex application. During testing, they encounter a failure when running a specific set of inputs. Instead of manually trying to isolate the cause, they could use delta debugging to automatically identify the minimal input that triggers the failure. This would allow them to quickly identify and fix the issue, improving the quality of their software and reducing the time spent on debugging."
   },
   {
     "objectID": "index.html#se10",
     "href": "index.html#se10",
     "title": "Summary",
     "section": "Se10",
-    "text": "Se10\nSummary\nReflection\nUse-case"
+    "text": "Se10\nSummary\nThe chapter Style Guides and Rules in the “Software Engineering at Google” book discusses the importance of rules and guidelines in coding practices within engineering organizations. It highlights Google’s approach, emphasizing tailored style guides for various programming languages and the adaptive nature of rules. The chapter illustrates how rules adapt with a case study and emphasizes the importance of standardization, local reasoning, readability, and consistency in maintaining an efficient codebase.\nReflection\nThe chapter provides valuable insights into the dynamic nature of rules and guidance in software engineering. It underscores the importance of adaptability and evolution in response to changing industry standards and language traits. The emphasis on local reasoning, readability, and consistency resonates with the need for clear understanding of code without extensive cross-referencing. The balance between enforcing rules and providing guides as best practices reflects a pragmatic approach to coding practices.\nUse-case\nA practical example from the chapter is Google’s shift in Python naming conventions from CamelCase to snake_case. This change demonstrates the need for adaptability in maintaining effective guidelines for software engineering. Another example is the allowance of std::unique_ptr in C++11 after aligning with style guidance. These instances show how rules can adapt over time to accommodate evolving languages and functionalities. Automation through formatting linters and tests aids in maintaining consistency and adhering to guidelines, further illustrating the application of these principles in a real-world setting."
   },
   {
-    "objectID": "index.html#fb10",
-    "href": "index.html#fb10",
+    "objectID": "index.html#db1",
+    "href": "index.html#db1",
     "title": "Summary",
-    "section": "FB10",
-    "text": "FB10\nSummary\nReflection\nUse-case"
+    "section": "DB1",
+    "text": "DB1\nSummary\nThe chapter on Introduction to Debugging discusses the process of debugging using a Python program that removes HTML tags as an example. It introduces a systematic debugging strategy based on the scientific method, emphasizing understanding the code, fixing the problem instead of symptoms, and proceeding systematically. The chapter provides a specific example of testing a hypothesis about the removal of double quotes from tagged input using the assert statement. It concludes by highlighting the challenges of debugging, including the complexity of program states and the lack of specifications.\nReflection\nThe chapter provides valuable insights into effective debugging strategies. It emphasizes the importance of thorough documentation and clear thinking during the debugging process. The use of the scientific method in debugging, involving formulating hypotheses, making predictions, testing hypotheses through experiments, and refining hypotheses based on observations, is particularly interesting. The chapter also underscores the importance of post-fix activities to ensure the long-term health and correctness of a software application.\nUse-case\nA practical example from the chapter is the debugging of a Python program that removes HTML tags. The initial code segment had a hypothesis that was tested using an assert statement. The hypothesis was about the removal of double quotes from tagged input. The incorrect condition failed to handle single and double quotes correctly. The corrected condition ensured that the code inside the block was executed only when either a single or double quote was encountered and the tag variable was true. After fixing the code, post-fix activities were suggested, including checking for further occurrences of the defect, validating tests, adding assertions for future correctness checks, committing the fix to the code repository, and closing the bug report. This example illustrates the application of the principles discussed in the chapter in a real-world setting."
+  },
+  {
+    "objectID": "index.html#se11",
+    "href": "index.html#se11",
+    "title": "Summary",
+    "section": "Se11",
+    "text": "Se11\nSummary\nThe chapter on Testing Overview discusses the importance and value of software testing at Google. It outlines how implementing a comprehensive test suite drastically reduced the number of bugs in production code. Testing provides many benefits like less debugging, increased confidence in changes, improved documentation, simpler code reviews, thoughtful design, and faster, higher-quality releases. The text describes different testing scope levels - small unit tests, medium integration tests, and large end-to-end tests. It recommends having mostly narrow unit tests, some integration tests, and just a few end-to-end tests. The “Beyoncé Rule” states that valuable new features should have test coverage to validate functionality and reduce the chance of removal later. Testing has limitations though and determining test value is a human task. Overall, testing fosters team inclusiveness through knowledge sharing and helps companies survive long-term.\nReflection\nThe chapter provides very compelling support for the value of comprehensive testing in software engineering. Seeing the specific example from Google about how test enforcement cut production bugs in half reinforced my belief that testing should be an integral part of the development process, not an afterthought. The categorization of testing into unit, integration and end-to-end makes sense conceptually. In practice, it can be challenging to achieve an ideal balance between different test types depending on system complexity. But aiming for mostly narrow unit tests as the foundation does seem like a thoughtful guideline. I appreciated the “Beyoncé Rule” as a catchy motto that reminds developers the importance of validating their contributions through tests for posterity. The limitations around determining test quality and usefulness also resonated with my experience that some areas inevitably depend more on human evaluation. Overall, I found this a worthwhile, convincing overview of why thorough testing matters and deserves ongoing investment despite obstacles.\nUse-case\nIn our software development class, as we work on our projects chasten and cellveyor, we can apply the key lessons from this chapter to devise an effective testing approach. Following Google’s model, we will structure our test coverage into unit, integration, and end-to-end levels. Narrow unit tests will validate individual class methods, functions, algorithms, and modules in isolation to prevent basic defects. Medium integration tests will ensure that components cooperate properly by testing interface functionality between frontend, backend, and database tiers. Broader system tests will put the fully integrated product through representative workflows but will require substantial mocking. We encourage our team to adopt an iterative testing process. This involves writing test cases, running them, and reacting to the results. This process should be repeated until the code is well-written and effective, as demonstrated by tests passing in GitHub Actions."
+  },
+  {
+    "objectID": "index.html#db2",
+    "href": "index.html#db2",
+    "title": "Summary",
+    "section": "DB2",
+    "text": "DB2\nSummary\nThe chapter on Tracing Executionsin The Debugging Book introduces the concept of Tracer, a tool that monitors and shows how a function behaves, including its inputs and outputs. Tracer uses the sys.settrace() command to trace everything in a program, providing access to the current line number, variables, and more. The chapter also discusses the use of the frame argument, which holds the function and its local variables. A function traceit is defined to trace the input program and print out the event, providing a line-by-line account of what happens in the program. The chapter further explores the application of the tracing function in a class and introduces the concept of ConditionalTracer, which logs specific conditional expressions during executions.\nReflection\nThe chapter provides valuable insights into the use of Tracer for debugging. It emphasizes the importance of tracing in understanding the behavior of a program and identifying issues. The use of sys.settrace() and the traceit function demonstrates a powerful approach to tracking events in code. The discussion on applying the tracing function in a class and using ConditionalTracer provides a comprehensive view of the tools available for debugging.\nUse-case\nOur software development team, working on the chasten and cellveyor projects, has refined our debugging process after reading an article. We have emphasized the cause-and-effect chain in our code, enhanced our test case development, and integrated the scientific method into our debugging process. We have updated our documentation practices and committed to continuous learning through training programs that cover the latest debugging techniques, tools, and best practices. By implementing these actions, our team can empower with a robust methodology for debugging, leading to more effective diagnosis and resolution of bugs, and ultimately a more stable and reliable software product. This use case illustrates the real-world application of the insights from the chapter to enhance our team’s ability to debug code effectively."
+  },
+  {
+    "objectID": "index.html#se12",
+    "href": "index.html#se12",
+    "title": "Summary",
+    "section": "Se12",
+    "text": "Se12\nSummary\nReflection\nUse-case"
+  },
+  {
+    "objectID": "index.html#db3",
+    "href": "index.html#db3",
+    "title": "Summary",
+    "section": "DB3",
+    "text": "DB3\nSummary\nReflection\nUse-case"
+  },
+  {
+    "objectID": "index.html#db4",
+    "href": "index.html#db4",
+    "title": "Summary",
+    "section": "DB4",
+    "text": "DB4\nSummary\nReflection\nUse-case"
   },
   {
     "objectID": "about.html",

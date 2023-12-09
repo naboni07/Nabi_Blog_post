@@ -184,10 +184,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#se9" id="toc-se9" class="nav-link" data-scroll-target="#se9">Se9</a></li>
   <li><a href="#fb9" id="toc-fb9" class="nav-link" data-scroll-target="#fb9">FB9</a></li>
   </ul></li>
-  <li><a href="#week-12" id="toc-week-12" class="nav-link" data-scroll-target="#week-12">Week 12</a>
+  <li><a href="#week-13" id="toc-week-13" class="nav-link" data-scroll-target="#week-13">Week 13</a>
   <ul class="collapse">
   <li><a href="#se10" id="toc-se10" class="nav-link" data-scroll-target="#se10">Se10</a></li>
-  <li><a href="#fb10" id="toc-fb10" class="nav-link" data-scroll-target="#fb10">FB10</a></li>
+  <li><a href="#db1" id="toc-db1" class="nav-link" data-scroll-target="#db1">DB1</a></li>
+  </ul></li>
+  <li><a href="#week-14" id="toc-week-14" class="nav-link" data-scroll-target="#week-14">Week 14</a>
+  <ul class="collapse">
+  <li><a href="#se11" id="toc-se11" class="nav-link" data-scroll-target="#se11">Se11</a></li>
+  <li><a href="#db2" id="toc-db2" class="nav-link" data-scroll-target="#db2">DB2</a></li>
+  </ul></li>
+  <li><a href="#week-15" id="toc-week-15" class="nav-link" data-scroll-target="#week-15">Week 15</a>
+  <ul class="collapse">
+  <li><a href="#se12" id="toc-se12" class="nav-link" data-scroll-target="#se12">Se12</a></li>
+  <li><a href="#db3" id="toc-db3" class="nav-link" data-scroll-target="#db3">DB3</a></li>
+  </ul></li>
+  <li><a href="#week-16" id="toc-week-16" class="nav-link" data-scroll-target="#week-16">Week 16</a>
+  <ul class="collapse">
+  <li><a href="#db4" id="toc-db4" class="nav-link" data-scroll-target="#db4">DB4</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -330,7 +344,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="fb6" class="level2">
 <h2 class="anchored" data-anchor-id="fb6">FB6</h2>
-<p><strong>Summary</strong> <strong>Reflection</strong> <strong>Use-case</strong></p>
+<p><strong>Summary</strong></p>
+<p><strong>Reflection</strong></p>
+<p><strong>Use-case</strong></p>
 </section>
 </section>
 <section id="week-9" class="level1">
@@ -395,26 +411,83 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="se9" class="level2">
 <h2 class="anchored" data-anchor-id="se9">Se9</h2>
 <p><strong>Summary</strong></p>
+<p>The chapter on <code>Code review</code> mentions as a process where a code is examined by someone other than the author before it’s added to the codebase. It checks for code correctness, comprehensibility, and consistency. At Google, code reviews are extensive and involve multiple reviewers. The goal is to get approval from another engineer, indicated by “looks good to me” (LGTM). Code reviews help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and improve code quality. Despite variations in the software industry, code review is seen as a crucial step for code quality and efficient collaboration.</p>
 <p><strong>Reflection</strong></p>
+<p>The chapter highlights the importance of code reviews in maintaining high-quality code and fostering collaboration among engineers. It underscores that code reviews are not just about finding bugs, but also about ensuring that the code is understandable, consistent, and maintainable. The practice of code review, as described at Google, emphasizes the importance of collective ownership and knowledge sharing in software development. It’s interesting to note that code reviews are seen as a crucial, albeit imperfect, process that contributes to the scalability and success of a software organization over time.</p>
 <p><strong>Use-case</strong></p>
+<p>Consider our software engineering class that is struggling with code quality and collaboration issues among its students. Implementing a rigorous code review process, similar to the one described at Google, could be beneficial. This process would involve multiple reviewers who check the code for correctness, comprehensibility, and consistency. The primary goal would be to gain approval from another student, fostering a sense of team ownership. This practice could help uncover defects early, save time on testing and debugging, promote collaboration, prevent technical debt, and ultimately improve the overall quality of the code. This would help us avoid introducing bugs that could break the system. Over time, this could contribute to the scalability and success of our projects.</p>
 </section>
 <section id="fb9" class="level2">
 <h2 class="anchored" data-anchor-id="fb9">FB9</h2>
 <p><strong>Summary</strong></p>
+<p>Delta debugging is a systematic technique used to identify the smallest possible input that still triggers a failure or error. It works by progressively removing parts of the input and testing if the error persists. The aim is to minimize the input while still reproducing the failure, simplifying the analysis and resolution of the underlying issue. The process begins by dividing the input into chunks and testing them individually. If a chunk doesn’t cause a failure, it’s discarded, and the process continues with the remaining chunks. This iterative approach gradually reduces the input size while checking the impact on the error. A caching mechanism can be used to store the results of previously tested inputs, avoiding redundant tests and saving time and computational resources. This technique is particularly useful in debugging and fixing software issues. By isolating and minimizing the problematic input, developers can focus on analyzing and resolving the specific cause of the failure, making the debugging process more manageable and targeted.</p>
 <p><strong>Reflection</strong></p>
+<p>Reflecting on this, delta debugging is a powerful tool for software developers. It automates the process of isolating the cause of a software failure, saving time and effort. It also makes the debugging process more efficient by focusing on the minimal inputs that trigger failures.</p>
 <p><strong>Use-case</strong></p>
+<p>Consider a software development company working on a complex application. During testing, they encounter a failure when running a specific set of inputs. Instead of manually trying to isolate the cause, they could use delta debugging to automatically identify the minimal input that triggers the failure. This would allow them to quickly identify and fix the issue, improving the quality of their software and reducing the time spent on debugging.</p>
 </section>
 </section>
-<section id="week-12" class="level1">
-<h1>Week 12</h1>
+<section id="week-13" class="level1">
+<h1>Week 13</h1>
 <section id="se10" class="level2">
 <h2 class="anchored" data-anchor-id="se10">Se10</h2>
+<p><strong>Summary</strong></p>
+<p>The chapter <code>Style Guides and Rules</code> in the “Software Engineering at Google” book discusses the importance of rules and guidelines in coding practices within engineering organizations. It highlights Google’s approach, emphasizing tailored style guides for various programming languages and the adaptive nature of rules. The chapter illustrates how rules adapt with a case study and emphasizes the importance of standardization, local reasoning, readability, and consistency in maintaining an efficient codebase.</p>
+<p><strong>Reflection</strong></p>
+<p>The chapter provides valuable insights into the dynamic nature of rules and guidance in software engineering. It underscores the importance of adaptability and evolution in response to changing industry standards and language traits. The emphasis on local reasoning, readability, and consistency resonates with the need for clear understanding of code without extensive cross-referencing. The balance between enforcing rules and providing guides as best practices reflects a pragmatic approach to coding practices.</p>
+<p><strong>Use-case</strong></p>
+<p>A practical example from the chapter is Google’s shift in Python naming conventions from CamelCase to snake_case. This change demonstrates the need for adaptability in maintaining effective guidelines for software engineering. Another example is the allowance of std::unique_ptr in C++11 after aligning with style guidance. These instances show how rules can adapt over time to accommodate evolving languages and functionalities. Automation through formatting linters and tests aids in maintaining consistency and adhering to guidelines, further illustrating the application of these principles in a real-world setting.</p>
+</section>
+<section id="db1" class="level2">
+<h2 class="anchored" data-anchor-id="db1">DB1</h2>
+<p><strong>Summary</strong></p>
+<p>The chapter on <code>Introduction to Debugging</code> discusses the process of debugging using a Python program that removes HTML tags as an example. It introduces a systematic debugging strategy based on the scientific method, emphasizing understanding the code, fixing the problem instead of symptoms, and proceeding systematically. The chapter provides a specific example of testing a hypothesis about the removal of double quotes from tagged input using the assert statement. It concludes by highlighting the challenges of debugging, including the complexity of program states and the lack of specifications.</p>
+<p><strong>Reflection</strong></p>
+<p>The chapter provides valuable insights into effective debugging strategies. It emphasizes the importance of thorough documentation and clear thinking during the debugging process. The use of the scientific method in debugging, involving formulating hypotheses, making predictions, testing hypotheses through experiments, and refining hypotheses based on observations, is particularly interesting. The chapter also underscores the importance of post-fix activities to ensure the long-term health and correctness of a software application.</p>
+<p><strong>Use-case</strong></p>
+<p>A practical example from the chapter is the debugging of a Python program that removes HTML tags. The initial code segment had a hypothesis that was tested using an assert statement. The hypothesis was about the removal of double quotes from tagged input. The incorrect condition failed to handle single and double quotes correctly. The corrected condition ensured that the code inside the block was executed only when either a single or double quote was encountered and the tag variable was true. After fixing the code, post-fix activities were suggested, including checking for further occurrences of the defect, validating tests, adding assertions for future correctness checks, committing the fix to the code repository, and closing the bug report. This example illustrates the application of the principles discussed in the chapter in a real-world setting.</p>
+</section>
+</section>
+<section id="week-14" class="level1">
+<h1>Week 14</h1>
+<section id="se11" class="level2">
+<h2 class="anchored" data-anchor-id="se11">Se11</h2>
+<p><strong>Summary</strong></p>
+<p>The chapter on <code>Testing Overview</code> discusses the importance and value of software testing at Google. It outlines how implementing a comprehensive test suite drastically reduced the number of bugs in production code. Testing provides many benefits like less debugging, increased confidence in changes, improved documentation, simpler code reviews, thoughtful design, and faster, higher-quality releases. The text describes different testing scope levels - small unit tests, medium integration tests, and large end-to-end tests. It recommends having mostly narrow unit tests, some integration tests, and just a few end-to-end tests. The “Beyoncé Rule” states that valuable new features should have test coverage to validate functionality and reduce the chance of removal later. Testing has limitations though and determining test value is a human task. Overall, testing fosters team inclusiveness through knowledge sharing and helps companies survive long-term.</p>
+<p><strong>Reflection</strong></p>
+<p>The chapter provides very compelling support for the value of comprehensive testing in software engineering. Seeing the specific example from Google about how test enforcement cut production bugs in half reinforced my belief that testing should be an integral part of the development process, not an afterthought. The categorization of testing into unit, integration and end-to-end makes sense conceptually. In practice, it can be challenging to achieve an ideal balance between different test types depending on system complexity. But aiming for mostly narrow unit tests as the foundation does seem like a thoughtful guideline. I appreciated the “Beyoncé Rule” as a catchy motto that reminds developers the importance of validating their contributions through tests for posterity. The limitations around determining test quality and usefulness also resonated with my experience that some areas inevitably depend more on human evaluation. Overall, I found this a worthwhile, convincing overview of why thorough testing matters and deserves ongoing investment despite obstacles.</p>
+<p><strong>Use-case</strong></p>
+<p>In our software development class, as we work on our projects <code>chasten</code> and <code>cellveyor</code>, we can apply the key lessons from this chapter to devise an effective testing approach. Following Google’s model, we will structure our test coverage into unit, integration, and end-to-end levels. Narrow unit tests will validate individual class methods, functions, algorithms, and modules in isolation to prevent basic defects. Medium integration tests will ensure that components cooperate properly by testing interface functionality between frontend, backend, and database tiers. Broader system tests will put the fully integrated product through representative workflows but will require substantial mocking. We encourage our team to adopt an iterative testing process. This involves writing test cases, running them, and reacting to the results. This process should be repeated until the code is well-written and effective, as demonstrated by tests passing in GitHub Actions.</p>
+</section>
+<section id="db2" class="level2">
+<h2 class="anchored" data-anchor-id="db2">DB2</h2>
+<p><strong>Summary</strong></p>
+<p>The chapter on <code>Tracing Executions</code>in The Debugging Book introduces the concept of Tracer, a tool that monitors and shows how a function behaves, including its inputs and outputs. Tracer uses the sys.settrace() command to trace everything in a program, providing access to the current line number, variables, and more. The chapter also discusses the use of the frame argument, which holds the function and its local variables. A function traceit is defined to trace the input program and print out the event, providing a line-by-line account of what happens in the program. The chapter further explores the application of the tracing function in a class and introduces the concept of ConditionalTracer, which logs specific conditional expressions during executions.</p>
+<p><strong>Reflection</strong></p>
+<p>The chapter provides valuable insights into the use of Tracer for debugging. It emphasizes the importance of tracing in understanding the behavior of a program and identifying issues. The use of sys.settrace() and the traceit function demonstrates a powerful approach to tracking events in code. The discussion on applying the tracing function in a class and using ConditionalTracer provides a comprehensive view of the tools available for debugging.</p>
+<p><strong>Use-case</strong></p>
+<p>Our software development team, working on the <code>chasten</code> and <code>cellveyor</code> projects, has refined our debugging process after reading an article. We have emphasized the cause-and-effect chain in our code, enhanced our test case development, and integrated the scientific method into our debugging process. We have updated our documentation practices and committed to continuous learning through training programs that cover the latest debugging techniques, tools, and best practices. By implementing these actions, our team can empower with a robust methodology for debugging, leading to more effective diagnosis and resolution of bugs, and ultimately a more stable and reliable software product. This use case illustrates the real-world application of the insights from the chapter to enhance our team’s ability to debug code effectively.</p>
+</section>
+</section>
+<section id="week-15" class="level1">
+<h1>Week 15</h1>
+<section id="se12" class="level2">
+<h2 class="anchored" data-anchor-id="se12">Se12</h2>
 <p><strong>Summary</strong></p>
 <p><strong>Reflection</strong></p>
 <p><strong>Use-case</strong></p>
 </section>
-<section id="fb10" class="level2">
-<h2 class="anchored" data-anchor-id="fb10">FB10</h2>
+<section id="db3" class="level2">
+<h2 class="anchored" data-anchor-id="db3">DB3</h2>
+<p><strong>Summary</strong></p>
+<p><strong>Reflection</strong></p>
+<p><strong>Use-case</strong></p>
+</section>
+</section>
+<section id="week-16" class="level1">
+<h1>Week 16</h1>
+<section id="db4" class="level2">
+<h2 class="anchored" data-anchor-id="db4">DB4</h2>
 <p><strong>Summary</strong></p>
 <p><strong>Reflection</strong></p>
 <p><strong>Use-case</strong></p>
