@@ -109,7 +109,7 @@
     "href": "index.html#se8",
     "title": "Summary",
     "section": "Se8",
-    "text": "Se8\nSummary\nReflection\nUse-case"
+    "text": "Se8\nSummary\nThe chapter Style Guides and Rules in the Software Engineering at Google book emphasizes the importance of rules and guidelines in coding practices. It discusses Google’s approach to creating tailored style guides for various programming languages, adapting to language traits and evolving industry standards. The chapter highlights the adaptive nature of rules, the importance of standardization for codebase sustainability, and the role of automation in maintaining consistency.\nReflection\nThis chapter provides valuable insights into the dynamic nature of rules and guidance in software engineering. It underscores the importance of adaptability, especially considering the evolving nature of programming languages and functionalities. The emphasis on local reasoning, readability, and consistency resonates with me as these are crucial for ensuring a clear understanding of code."
   },
   {
     "objectID": "index.html#fb8",
@@ -165,21 +165,21 @@
     "href": "index.html#se12",
     "title": "Summary",
     "section": "Se12",
-    "text": "Se12\nSummary\nReflection\nUse-case"
+    "text": "Se12\nSummary\nThe chapter on Unit Testingin the Software Engineering Book at Google provides a comprehensive overview of unit testing. It emphasizes the importance of clear and concise tests that focus on specific functionalities of a program. The chapter warns against creating brittle tests that can easily break with minor changes and encourages testing from the user’s perspective. It also highlights the significance of testing the final state of an application rather than its interactions.\nReflection\nThe chapter offers valuable insights into the nuances of writing effective unit tests. However, the specific differences between various types of tests can be confusing. The chapter could be more beneficial with clearer explanations or examples. Despite this, the principles discussed are crucial for software engineering practices and can be applied in various contexts, including scientific computing."
   },
   {
     "objectID": "index.html#db3",
     "href": "index.html#db3",
     "title": "Summary",
     "section": "DB3",
-    "text": "DB3\nSummary\nReflection\nUse-case"
+    "text": "DB3\nSummary\nThe chapter on Asserting Expectations in the The Debugging Book provides an in-depth exploration of asserting methods as a key aspect of debugging. It emphasizes the role of assertions in checking invariants during program execution and monitoring the integrity of the runtime system. The chaapter traces the historical origins of assertions in programming and offers practical insights, emphasizing the importance of assertions in early error detection and defect localization.\nReflection\nThe chapter offers a comprehensive understanding of assertions in debugging, making it a valuable resource for both novice and experienced developers. It highlights the importance of not altering correct operation through assertions and not replacing permanent checks and exceptions for potential errors, which are crucial lessons for effective debugging."
   },
   {
     "objectID": "index.html#db4",
     "href": "index.html#db4",
     "title": "Summary",
     "section": "DB4",
-    "text": "DB4\nSummary\nReflection\nUse-case"
+    "text": "DB4\nSummary\nThe chapter on Statistical Debugging in The Debugging Book provides a comprehensive overview of this technique, which correlates specific events during program execution with outcomes. It involves collecting events, such as lines of code covered, and using statistical analysis to determine which events correlate with failures. This technique aids developers in identifying the root causes of program failures. Statistical debuggers, like TarantulaDebugger or OchiaiDebugger, use collectors to gather events and analyze data. They can visualize and analyze data using various techniques, such as event tables. However, correlations do not necessarily imply causation, and developers must use their judgment to identify the actual root cause of the failure.\nReflection\nThe chapter of statistical debugging provides a powerful tool for developers to identify the root causes of program failures. It emphasizes the importance of correlating events with outcomes and using statistical analysis to guide debugging efforts. However, it also highlights the need for developers to exercise judgment in interpreting these correlations, reminding us that correlation does not imply causation."
   },
   {
     "objectID": "about.html",
